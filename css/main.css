@@ -1,6 +1,6 @@
 *{
     background-color: #ee9595;
-    color: #ef4f4f;
+    color: #f33232;
     margin: 10px;
     font-family: 'Newsreader', serif;
     
@@ -12,6 +12,7 @@
     grid-column-gap: 35px;
     text-align: justify;
     font-size: 35px;
+
 }
 .cuerpo2{
     display: grid;
@@ -87,4 +88,8 @@
     cursor: pointer;
     color: #ffcda3;
     
+}
+
+.text{
+    color: #ef4f4f;
 }
