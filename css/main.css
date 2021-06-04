@@ -1,0 +1,90 @@
+*{
+    background-color: #ee9595;
+    color: #ef4f4f;
+    margin: 10px;
+    font-family: 'Newsreader', serif;
+    
+}
+
+.cuerpo{
+    display: grid;
+    grid-template-columns: 200px 450px auto ; 
+    grid-column-gap: 35px;
+    text-align: justify;
+    font-size: 35px;
+}
+.cuerpo2{
+    display: grid;
+    grid-template-columns: 100px 600px 1000px  ;
+    grid-column-gap: 35px;
+    text-align: justify;
+    font-size: 35px;
+}
+.cuerpo3{
+    display: grid;
+    grid-template-columns: 500px 300px 500px;
+    grid-column-gap: 35px;
+    text-align: justify;
+    font-size: 35px;
+}
+.fotoaguilera{
+    max-width:50%;
+}
+.fotoinsta{
+    max-width: 70%;
+}
+.portada{
+    max-width: 100%;
+}
+.cuadro2{
+    max-width: 100%;
+}
+.cuadro3{
+    max-width: 100%;
+}
+.cuadro4{
+    max-width: 100%;
+}
+.navbar{
+    display: grid;
+    font-size: 30px;
+}
+
+.navbar li:hover{
+    cursor: pointer;
+    color: #ffcda3;
+  
+}
+
+.navbar ul{
+    list-style: none;
+    font-size: 30x;
+}
+
+.navbar li{
+    display: inline;
+    float: right;
+}
+
+.boton{
+    background-color: crimson;
+    color: rgb(243, 174, 188);
+    font-size: 40px;
+    text-align:center;
+}
+
+.botoninsta{
+    border-radius:10px;
+    max-block-size: 80px;
+    
+}
+.insta{
+    max-width: 50px;
+
+}
+
+.navbar a:hover{
+    cursor: pointer;
+    color: #ffcda3;
+    
+}
